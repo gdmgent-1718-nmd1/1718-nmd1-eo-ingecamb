@@ -16,3 +16,93 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/*defining styleguide styles */
+.container{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.sub{
+    border-bottom: .5px dashed grey;
+    padding: 30px 0;
+}
+.styleguide-title{
+    font-family: helvetica;
+}
+.insprong{
+    margin: 40px 0px 40px 30px;
+} 
+p{
+    width: 400px;
+}
+
+a{
+    color: #606060;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a:hover{
+    color: #D55D5F; 
+}
+/*defining the fonts */
+.nav-title{
+    font-family: 'PT Sans', sans-serif;
+}
+h2{
+    font-family: helvetica
+}
+h3,
+p{
+    font-family: helvetica;
+}
+.selected{
+    color: #D55D5F;
+}
+
+/* defining the colors */ 
+.color{
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    font-family: helvetica;
+    padding: 10px;
+    border-radius: 20px;
+}
+.color1{
+    background-color: #606060;
+    
+}
+.color2{
+    background-color: #D55D5F;
+}
+.color3{
+    background-color: #FFF684;
+}
+.color4{
+    background-color: #76BF73;
+}
+
+/* input styling */
+.contactform{
+    width: 300px;
+}
+input,
+textarea{
+    padding: 10px 0;
+    border: none;
+    border-bottom: .5px solid grey;
+}
+/* button styling */
+
+
+/* icons styling */ 
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
