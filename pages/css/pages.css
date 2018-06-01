@@ -28,6 +28,9 @@ img {
     border-bottom: .5px dashed grey;
     padding: 30px 0;
 }
+.bold{
+    font-weight: bold;
+}
 .styleguide-title{
     font-family: helvetica;
 }
@@ -35,7 +38,7 @@ img {
     margin: 40px 0px 40px 30px;
 } 
 p{
-    width: 400px;
+    width: 550px;
 }
 
 a{
@@ -73,18 +76,23 @@ p{
     padding: 10px;
     border-radius: 20px;
 }
+
 .color1{
+    background-color: #FBFBFB;
+}
+.color2{
     background-color: #606060;
     
 }
-.color2{
+.color3{
     background-color: #D55D5F;
 }
-.color3{
-    background-color: #FFF684;
-}
+
 .color4{
-    background-color: #76BF73;
+    background-color: #70392C;
+}
+.color5{
+    background-color: #000000;
 }
 
 /* input styling */
@@ -105,4 +113,15 @@ textarea{
     width: 30px;
     height: 30px;
     padding: 10px;
+}
+.row{
+    margin-bottom: 100px;
+}
+.column1{
+    width: 400px;
+    display: inline-block;
+}
+.column2{
+    width: 400px;
+    display: inline-block;
 }
