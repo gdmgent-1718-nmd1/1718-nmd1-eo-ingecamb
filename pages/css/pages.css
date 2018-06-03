@@ -40,7 +40,6 @@ img {
 p{
     width: 550px;
 }
-
 a{
     color: #606060;
     font-family: 'PT Sans', sans-serif;
@@ -50,19 +49,29 @@ a{
 a:hover{
     color: #D55D5F; 
 }
+.page-color{
+    color: white; 
+}
 /*defining the fonts */
 .nav-title{
     font-family: 'PT Sans', sans-serif;
 }
 h2{
-    font-family: helvetica
+    font-family: 'PT Sans'
 }
 h3,
 p{
-    font-family: helvetica;
+    color: #606060;
+    font-family: 'PT Sans';
+}
+.color-1{
+    color: #D55D5F;
 }
 .selected{
     color: #D55D5F;
+}
+.color-footer-text {
+    color: #70392C;
 }
 
 /* defining the colors */ 
